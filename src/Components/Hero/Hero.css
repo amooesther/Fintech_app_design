@@ -131,9 +131,6 @@ cursor: pointer;
         left: 120px;
     }
 
-    .heroRight img {
-        display: none;
-    }
 
  
 
@@ -149,14 +146,14 @@ cursor: pointer;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 20px;
+        gap: 50px;
         padding: 0;
     }
     .heroLeft {
         margin: 20px;
     }
     .fire {
-        width: 150px;
+        width: 200px;
         font-size: 11px;
         margin-bottom: 50px;
     }
@@ -166,21 +163,25 @@ cursor: pointer;
     }
     .heroLeft p {
         font-size: 12px;
-        width: auto;
-        text-align: center;
+        width: 80%;
+      
     }
    .btn{
     display: flex;
-    margin: auto;
+    
+   }
+   .btn button{
+    width: 70%;
+    border: none;
+
    }
     .btn img {
-        left: 120px;
+        display: none;
     }
-    .heroRight img {
-       display: none;
-    }
+   
     .heroBottom {
         display: none;
+
     }
 }
 
@@ -190,7 +191,7 @@ cursor: pointer;
         margin: 15px;
     }
     .fire {
-        width: 140px;
+        width: 200px;
         font-size: 10px;
         margin-bottom: 30px;
     }
@@ -209,7 +210,12 @@ cursor: pointer;
         left: 110px;
     }
     .heroRight img {
-        display: none;
+       width: 70%;
+       height: 70%;
+       margin: auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
     }
     .heroBottom {
         display: none;

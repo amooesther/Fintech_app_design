@@ -190,10 +190,17 @@ cursor: pointer;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 80px;
     }
     .heroTwoLeft .outerLayer {
-       display: none;
+       height: 100%;
+       width: 100%;
+       
     }
+    .heroTwoLeft .outerLayer img {
+        height: 80%;
+        width: 80%;
+     }
     
     .slider{
         display: none;
@@ -218,10 +225,10 @@ cursor: pointer;
         gap: 10px;
     }
     .slider {
-        height: 30%;
+        display: none; 
     }
     .slideTwo {
-        height: 15%;
+        display: none;
     }
     .heroTwoDownWrapper {
         flex-direction: column;
@@ -231,7 +238,7 @@ cursor: pointer;
         width: 90%;
     }
     .heroTwoDownLeft h2 {
-        font-size: 24px;
+        font-size: 22px;
     }
     
 }
@@ -239,11 +246,12 @@ cursor: pointer;
 /* Small Mobile Screens (max-width: 480px) */
 @media (max-width: 480px) {
     .heroTwoLeft .outerLayer {
-        width: 180px;
-        height: 180px;
+        width: 300px;
+        height: 300px;
     }
     .heroTwoLeft .outerLayer img {
-        width: 160px;
+        width: 250px;
+        height: 250px;
     }
     .heroTwoRight h2, .heroTwoDownLeft h2 {
         font-size: 20px;
@@ -263,12 +271,17 @@ cursor: pointer;
     }
     .heroTwoDownWrapper {
         height: auto;
+        margin-top: 20px;
+    }
+    .heroTwoDownRight img{
+        width: 70%;
+        height: 70%;
     }
     .bttns button {
-        width: 120px;
-        font-size: 12px;
+       width: 70%;
+       margin: auto;
     }
     .bttns img {
-        left: 100px;
+        display: none;
     }
 }
