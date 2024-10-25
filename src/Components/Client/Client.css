@@ -63,3 +63,58 @@
     background-color: #004852;
     color: #fff;
 }
+
+@media (max-width: 480px) {
+    .testimonial {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .clientWrapper {
+        padding: 20px;
+    }
+
+    .testimonialWrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .clientTestimonial {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+/* Tablet screens (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .testimonial {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .testimonialWrapper {
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .clientTestimonial {
+        width: 80%;
+        padding: 25px;
+    }
+}
+
+/* Small Desktop screens (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .testimonial {
+        width: 80%;
+    }
+
+    .clientWrapper {
+        padding: 40px;
+    }
+
+    .clientTestimonial {
+        width: 70%;
+    }
+}

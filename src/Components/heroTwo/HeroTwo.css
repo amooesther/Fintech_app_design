@@ -278,8 +278,9 @@ cursor: pointer;
         height: 70%;
     }
     .bttns button {
-       width: 70%;
-       margin: auto;
+       width: 90%;
+       margin: 0 auto;
+       
     }
     .bttns img {
         display: none;

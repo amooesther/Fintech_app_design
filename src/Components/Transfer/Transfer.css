@@ -146,7 +146,16 @@
         height: auto;
     }  
 
+    .bttn2{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .transferDown div {
         width: 90%;
+    }
+    .transferDown img{
+        width: 350px;
     }
 }

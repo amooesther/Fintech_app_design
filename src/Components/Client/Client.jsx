@@ -66,7 +66,7 @@ const Client = () => {
         </div>
         </div>
     </div>
-    <div className="bttns">
+    <div className="bttns bttn2">
         <button className='butts'>View More</button>
         <img src={assets.RightButtonGreen} alt="" />
         </div>

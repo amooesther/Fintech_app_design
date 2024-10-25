@@ -95,12 +95,7 @@ cursor: pointer;
         padding: 10px;
     }
 
-    .hero {
-        flex-direction: column;
-        gap: 50px;
-        padding: 0 20px;
-    }
-
+ 
     .heroLeft {
         max-width: 100%;
         margin: 20px 0;
@@ -125,7 +120,9 @@ cursor: pointer;
         
     }
 
-  
+  .slider{
+    display: none;
+  }
 
     .btn img {
         left: 120px;

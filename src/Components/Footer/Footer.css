@@ -69,3 +69,90 @@
     font-weight: 300;
     
 }
+
+@media (max-width: 1024px) {
+    .footerUp {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footerUpleft {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .footerDown {
+        padding: 20px;
+    }
+
+    .card ul {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .footerIcons {
+        gap: 15px;
+    }
+}
+
+/* Large Mobile Screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .footerUpleft h2 {
+        width: 100%;
+    }
+
+    .footerUp {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .logo2 {
+        width: 150px;
+    }
+
+    .store {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .feedback {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+/* Small Mobile Screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .footerUpleft {
+        margin: 10px;
+        width: 90%;
+    }
+
+    .footerIcons {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .store {
+        align-items: center;
+        gap: 5px;
+    }
+
+    .card ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .feedback, .policy {
+        font-size: 10px;
+        text-align: center;
+    }
+}
