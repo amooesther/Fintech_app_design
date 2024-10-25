@@ -183,3 +183,92 @@ cursor: pointer;
     width: 400px;
     height: 300px;
 }
+
+@media (max-width: 768px) {
+    .heroTwo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .heroTwoLeft .outerLayer {
+       display: none;
+    }
+    
+    .slider{
+        display: none;
+    }
+    .heroTwoRight{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .heroTwoRight h2 {
+        font-size: 22px;
+        
+    }
+    .aboutFire, .featureFire {
+        width: 90px;
+        font-size: 11px;
+        height: 25px;
+        
+    }
+    .content-container {
+        gap: 10px;
+    }
+    .slider {
+        height: 30%;
+    }
+    .slideTwo {
+        height: 15%;
+    }
+    .heroTwoDownWrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .heroTwoDownLeft, .heroTwoDownRight {
+        width: 90%;
+    }
+    .heroTwoDownLeft h2 {
+        font-size: 24px;
+    }
+    
+}
+
+/* Small Mobile Screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .heroTwoLeft .outerLayer {
+        width: 180px;
+        height: 180px;
+    }
+    .heroTwoLeft .outerLayer img {
+        width: 160px;
+    }
+    .heroTwoRight h2, .heroTwoDownLeft h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content div {
+        width: 100%;
+        padding: 10px;
+    }
+    .aboutFire, .featureFire {
+        width: 80px;
+        font-size: 10px;
+    }
+    .heroTwoDownWrapper {
+        height: auto;
+    }
+    .bttns button {
+        width: 120px;
+        font-size: 12px;
+    }
+    .bttns img {
+        left: 100px;
+    }
+}

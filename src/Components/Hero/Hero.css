@@ -87,3 +87,135 @@ cursor: pointer;
     width: 60px;
     height:16px;
 }
+
+@media (max-width: 912px) {
+    .heroContainer {
+        background: linear-gradient(90deg, #00152e, #53918c);
+        margin: 0;
+        padding: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        gap: 50px;
+        padding: 0 20px;
+    }
+
+    .heroLeft {
+        max-width: 100%;
+        margin: 20px 0;
+    }
+
+    .fire {
+        width: 180px;
+        height: 25px;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .heroLeft h1 {
+        font-size: 48px;
+        width: auto;
+        
+    }
+
+    .heroLeft p {
+        font-size: 14px;
+        width: auto;
+        
+    }
+
+  
+
+    .btn img {
+        left: 120px;
+    }
+
+    .heroRight img {
+        display: none;
+    }
+
+ 
+
+    .heroBottom img {
+        width: 50px;
+        height: 16px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 0;
+    }
+    .heroLeft {
+        margin: 20px;
+    }
+    .fire {
+        width: 150px;
+        font-size: 11px;
+        margin-bottom: 50px;
+    }
+    .heroLeft h1 {
+        font-size: 30px;        
+        width: auto;
+    }
+    .heroLeft p {
+        font-size: 12px;
+        width: auto;
+        text-align: center;
+    }
+   .btn{
+    display: flex;
+    margin: auto;
+   }
+    .btn img {
+        left: 120px;
+    }
+    .heroRight img {
+       display: none;
+    }
+    .heroBottom {
+        display: none;
+    }
+}
+
+/* Small screens: mobile phones */
+@media (max-width: 480px) {
+    .heroLeft {
+        margin: 15px;
+    }
+    .fire {
+        width: 140px;
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    .heroLeft h1 {
+        font-size: 28px;
+        width: auto;
+    }
+    .heroLeft p {
+        font-size: 12px;
+        width: auto;
+    }
+    .btn {
+        width: 140px;
+    }
+    .btn img {
+        left: 110px;
+    }
+    .heroRight img {
+        display: none;
+    }
+    .heroBottom {
+        display: none;
+    }
+    .heroBottom img {
+        width: 50px;
+        height: 14px;
+    }
+}
