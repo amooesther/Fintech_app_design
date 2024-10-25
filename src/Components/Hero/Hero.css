@@ -15,7 +15,7 @@
     flex-direction: column;  
     margin:35px 150px;    
 }
-.fire{
+.heroFire{
     display: flex;
     width: 219px;
     height: 30px;
@@ -29,7 +29,7 @@
     background-color: rgba(255, 255, 255, 0.18);
 
 }
-.fire img{
+.heroFire img{
     width: 18px;
     height: 20px;
 }
@@ -39,7 +39,7 @@
     color: #fff;
     font: 64px;
 }
-.heroLeft span{
+.span{
     color: #e2ff54;
 }
 
@@ -101,13 +101,15 @@ cursor: pointer;
         margin: 20px 0;
     }
 
-    .fire {
-        width: 180px;
-        height: 25px;
+    .heroFire {
+        width: 200px;
+        height: 30px;
         font-size: 12px;
         margin-bottom: 20px;
     }
-
+ .heroFire span{
+    font-size: 13px;
+ }
     .heroLeft h1 {
         font-size: 48px;
         width: auto;
@@ -149,7 +151,7 @@ cursor: pointer;
     .heroLeft {
         margin: 20px;
     }
-    .fire {
+    .heroFire {
         width: 200px;
         font-size: 11px;
         margin-bottom: 50px;
@@ -187,10 +189,13 @@ cursor: pointer;
     .heroLeft {
         margin: 15px;
     }
-    .fire {
+    .heroFire {
         width: 200px;
         font-size: 10px;
         margin-bottom: 30px;
+    }
+    .heroFire p{
+        font-size: 13px;
     }
     .heroLeft h1 {
         font-size: 28px;

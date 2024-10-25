@@ -7,11 +7,11 @@ const Hero = () => {
     <div className="heroContainer">
     <div className='hero'>
         <div className='heroLeft'>
-            <div className="fire">
+            <div className="heroFire">
                 <img src={assets.fire_icon} alt="" />
-                <p>100% TRUSTED PLATFORM</p>
+              <span>100% TRUSTED PLATFORM</span>
             </div>
-            <h1>FINANCE WITH SECURITY AND <span>FLEXIBILITY</span></h1>
+            <h1>FINANCE WITH SECURITY AND <span className='span'>FLEXIBILITY</span></h1>
             <p>no-fee checking account with cash back rewards. Enjoy fee-free banking and earn cash back on your everyday purchases.</p>
         <div className="btn">
         <button>Open Account</button>

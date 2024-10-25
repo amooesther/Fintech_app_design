@@ -62,12 +62,15 @@
         font-size: 14px;
     }
     .valueFire {
-        width: 220px;
-        font-size: 12px;
+        width: 200px;
+        
     }
     .valueLeft img {
         width: 300px;
         height: auto;
+    }
+    .value span{
+        font-size: 13px;
     }
 }
 
@@ -90,7 +93,7 @@
         width: auto;
     }
     .valueFire {
-        width: 250px;
+        width: 200px;
         font-size: 10px;
     }
     .valueLeft img {
