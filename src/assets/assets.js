@@ -24,6 +24,20 @@ import transferMiddleRight from '../assets/transferMiddleRight.png'
 import transferDownRight from '../assets/transferDownRight.png'
 import transferDownLeft from '../assets/transferDownLeft.png'
 import transferDownMiddle from '../assets/transferDownMiddle.png'
+import clientOne from '../assets/clientOne.png'
+import quote from '../assets/quote.png'
+import fiveStar from '../assets/fiveStar.png'
+import clientTwo from '../assets/clientTwo.png'
+import clientThree from '../assets/clientThree.png'
+import quoteGreen from '../assets/quoteGreen.png'
+import readymockup from '../assets/readymockup.png'
+import googleplay from '../assets/googleplay.png'
+import appstore from '../assets/appstore.png'
+import facebook_icon from '../assets/facebook_icon.png'
+import linkedin from '../assets/linkedin.png'
+import instagram from '../assets/instagram.png'
+import twitter from '../assets/twitter.png'
+import logo2 from '../assets/logo2.png'
 const assets ={
     chart,
     alipay,
@@ -50,7 +64,13 @@ const assets ={
     transferMiddleRight,
     transferDownMiddle,
     transferDownLeft,
-    transferDownRight
+    transferDownRight,
+    clientOne,
+    quote,
+    fiveStar,
+    clientTwo,
+    clientThree,quoteGreen,readymockup,googleplay,appstore,linkedin,
+    instagram,twitter,facebook_icon,logo2
     
 }
 export default assets;

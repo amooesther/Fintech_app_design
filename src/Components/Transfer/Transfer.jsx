@@ -44,7 +44,7 @@ const Transfer = () => {
         <h2>Visit Our Service Page</h2></div>
     </div>
     <div className="bttns">
-        <button className='butts'>Visit More</button>
+        <button className='butts'>View More</button>
         <img src={assets.RightButtonGreen} alt="" />
         </div>
     </div>

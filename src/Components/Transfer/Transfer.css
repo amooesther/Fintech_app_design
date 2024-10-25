@@ -49,14 +49,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 30px;
     padding: 40px;
     
 
 }
 .transferMiddle img{
-    width: 400px;
-    height: 450px;
+    width: 480px;
+    height: 550px;
 }
 .transferDown{
     display: flex;
@@ -64,10 +64,10 @@
     align-items: center;
     margin: 0;
     padding: 0;
-    gap: 50px;
+    gap: 24px;
 }
 .transferDown div{
-    width: 300px;
+    width: 317px;
     height: 250px;    
     border-radius: 20px;
 }
@@ -86,7 +86,7 @@
     font-size: 13px;
 }
 .transferDown img{
-    width: 300px;
+    width: 317px;
     height: 250px;
 }
 .transferDownRight{
