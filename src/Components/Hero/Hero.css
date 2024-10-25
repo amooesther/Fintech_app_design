@@ -1,0 +1,89 @@
+.heroContainer{    
+    background: linear-gradient(90deg, #00152e, #53918c);
+    margin: 0;
+   }
+.hero{
+    display: flex;    
+    gap: 100px;
+    margin: 0;
+    padding: 0;
+    
+}
+.heroLeft{
+    max-width: 600px;    
+    display: flex;
+    flex-direction: column;  
+    margin:35px 150px;    
+}
+.fire{
+    display: flex;
+    width: 219px;
+    height: 30px;
+    gap: 4px;
+    font-size: 14px;
+    color: #f9fafb;
+    border-radius: 15px;
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.18);
+
+}
+.fire img{
+    width: 18px;
+    height: 20px;
+}
+
+.heroLeft h1{
+    width: 250px;
+    color: #fff;
+    font: 64px;
+}
+.heroLeft span{
+    color: #e2ff54;
+}
+
+.heroLeft p{
+    color: #dcdcdc;
+    font-weight: 500;
+    font-size: 14px;
+    width: 380px; 
+    margin-bottom: 30px;   
+}
+.btn{
+    display: flex;
+    width: 200px;
+    
+}
+.btn button{
+width: 150px;
+height: 40px;
+color: #f9fafb;
+font-weight: 500;
+background-color: #00b512;
+border-radius: 20px;
+position: absolute;
+cursor: pointer;
+
+}
+.btn img{
+    width: 40px;
+    width: 40px;
+    position: relative;
+    left: 130px;
+}
+.heroRight img{
+    width: 400px;
+    height: 450px;
+}
+.heroBottom{
+    display: flex;
+    margin: 10 150px;
+    justify-content: space-around;
+    background: #04684c;
+    padding: 10px;
+}
+.heroBottom img{
+    width: 60px;
+    height:16px;
+}

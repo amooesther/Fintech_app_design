@@ -1,0 +1,52 @@
+.valueContainer{
+    background: url(../../assets/valueBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.value{
+    display: flex;    
+    gap: 100px;
+    margin: 0;
+    padding: 0;
+    margin-left: 150px;
+    margin-right: 150px;
+   
+}
+.valueRight{
+    max-width: 600px;    
+    display: flex;
+    flex-direction: column;  
+    margin:100px 150px;   
+}
+.valueFire{
+    display: flex;
+    width: 219px;
+    height: 30px;
+    gap: 4px;
+    font-size: 14px;
+    color: #f9fafb;
+    border-radius: 15px;
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.18);
+}
+.valueRight h1{
+    width: 400px;
+    color: #fff;
+    font: 48px;
+}
+.valueRight P{
+    color: #dcdcdc;
+    font-weight: 500;
+    font-size: 14px;
+    width: 400px; 
+    margin-bottom: 30px;
+}
+
+.valueLeft img{
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+}

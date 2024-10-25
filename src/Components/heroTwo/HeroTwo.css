@@ -1,0 +1,185 @@
+.heroTwo{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.heroTwoLeft .outerLayer{
+    width: 380px;
+    height: 380px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.heroTwoLeft .outerLayer img{
+    width: 300px;
+    height: 290px;
+}
+.heroTwoRight{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin-top: 120px;
+}
+.heroTwoRight .aboutFire{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    gap: 4px;
+    font-size: 13px;
+    color: #031b1d;
+    margin-bottom: 16px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 4px;    
+    background-color: #f9fafb;
+
+}
+.aboutFire img{
+    height: 15px;
+    align-items: center;
+}
+
+.content-container {
+    display: flex;
+    align-items: flex-start;
+   
+}
+
+
+.slider {
+     
+    height: 60%;    
+    border-left:  7px solid #d9d9d9; 
+    border-radius: 4px;   
+    margin-top: 20px; 
+    position: absolute;
+}
+.slideTwo{
+    height: 27%;    
+    border-left:  5px solid #04684c; 
+    border-radius: 4px;   
+    margin-top: 20px; 
+    position: relative;
+    right: 5px;
+    border-top: 50px;
+}
+.heroTwoRight h2{
+    width: 40px;
+    width: 250px;
+    font-size: 28px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    width: 350px;
+}
+
+.content h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    
+}
+
+.content p {
+    font-size: 14px;
+    color: #555; 
+    line-height: 1.5;
+    
+}
+.content div{
+    width: 400px;
+    height: 120px;  
+    border-radius:20px ;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.content div:first-child{
+   background-color: #f1ffd2;
+}
+.heroTwoDownWrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 600px;
+}
+.heroTwoDownLeft{
+    width: 400px;
+    height: 350px;
+}
+.featureFire{
+    display: flex;
+    gap: 4px;
+    background: #f9fafb;
+    border-radius: 20px;
+    width: 114px;
+    height: 30px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+.heroTwoDownLeft h2 {
+    font-size: 28px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    color: #090909;
+    width: 280px;
+    
+}
+.text{
+    display: flex;    
+    gap: 4px;
+}
+.bullets{
+    height: 5px;
+    width:5px;
+    background-color: #676666;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.texts{
+    width: 350px;
+    font-size: 13px;
+    color: #676666;
+    margin-bottom: 5px;
+}
+
+.bttns{
+    display: flex;
+    width: 200px;
+    margin-top: 40px;
+    
+}
+.bttns button{
+width: 150px;
+height: 40px;
+color: #000;
+font-weight: 500;
+background-color: #fff;
+border: 1px solid #00b512;
+border-radius: 20px;
+position: absolute;
+cursor: pointer;
+
+}
+.bttns img{
+    width: 40px;
+    width: 40px;
+    position: relative;
+    left: 130px;
+   
+}
+.heroTwoDownRight img{
+    width: 400px;
+    height: 300px;
+}
