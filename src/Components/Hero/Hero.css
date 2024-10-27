@@ -1,6 +1,10 @@
 .heroContainer{    
-    background: linear-gradient(90deg, #00152e, #53918c);
+    background: 
+    url(../../assets/Row.png) , 
+    linear-gradient(90deg, #00152e, #53918c);
     margin: 0;
+    
+    
    }
 .hero{
     display: flex;    
@@ -90,8 +94,9 @@ cursor: pointer;
 
 @media (max-width: 912px) {
     .heroContainer {
-        background: linear-gradient(90deg, #00152e, #53918c);
-        margin: 0;
+        background:url(../../assets/Row.png) , 
+    linear-gradient(90deg, #00152e, #53918c);
+    margin: 0;
         padding: 10px;
     }
 

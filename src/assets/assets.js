@@ -38,6 +38,8 @@ import linkedin from '../assets/linkedin.png'
 import instagram from '../assets/instagram.png'
 import twitter from '../assets/twitter.png'
 import logo2 from '../assets/logo2.png'
+import Row from '../assets/Row.png'
+
 const assets ={
     chart,
     alipay,
@@ -70,7 +72,7 @@ const assets ={
     fiveStar,
     clientTwo,
     clientThree,quoteGreen,readymockup,googleplay,appstore,linkedin,
-    instagram,twitter,facebook_icon,logo2
+    instagram,twitter,facebook_icon,logo2,Row
     
 }
 export default assets;
