@@ -16,8 +16,8 @@ const ValueSection = () => {
             </div>
             <h1>WE VALUE YOUR TRUST AND SECURITY</h1>
             <p>Our mission is to make finance more accessible, transparent, and secure for everyone. With cutting.</p>
-            <div className="btn">
-        <button>Open Account</button>
+            <div className="btn buts">
+        <button className='buts'>Open Account</button>
         <img src={assets.RightButton} alt="" />
         </div>
         </div> 

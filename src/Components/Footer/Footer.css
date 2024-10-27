@@ -106,6 +106,9 @@
     .footerUp {
         flex-direction: column;
         gap: 50px;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
     }
 
     .logo2 {

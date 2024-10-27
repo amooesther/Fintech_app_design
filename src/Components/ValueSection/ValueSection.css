@@ -52,14 +52,23 @@
 }
 @media (max-width: 768px) {
     .value {
-        gap: 30px;
+        gap: 10px;
         margin: 0 20px;
     }
+    .valueRight{
+        width: 80%;
+    }
+    .valueRight .buts{
+        width: 150px !important;
+
+    }
     .valueRight h1 {
-        font-size: 28px;
+        font-size: 22px;
+        width: 90%;
     }
     .valueRight p {
         font-size: 14px;
+        width: 90%;
     }
     .valueFire {
         width: 200px;
